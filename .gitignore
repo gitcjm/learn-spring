@@ -1,0 +1,9 @@
+# my java gitignore
+# 2016-7-28
+
+# idea auto generated directory
+.idea
+java.iml
+
+# target directory
+target
