@@ -1,4 +1,4 @@
-package com.test;
+package com.MyServlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

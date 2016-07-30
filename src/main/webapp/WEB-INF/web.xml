@@ -9,12 +9,12 @@
     <!-- 凭啥spring能拦截请求?!我也要! -->
     <servlet>
         <servlet-name>cjm-servlet</servlet-name>
-        <servlet-class>com.test.CjmServlet</servlet-class>
+        <servlet-class>com.MyServlet.CjmServlet</servlet-class>
         <load-on-startup>2</load-on-startup>
     </servlet>
     <servlet-mapping>
         <servlet-name>cjm-servlet</servlet-name>
-        <url-pattern>/test/</url-pattern>
+        <url-pattern>/test-MyServlet</url-pattern>
     </servlet-mapping>
 
     <!-- spring servlet拦截器 -->
